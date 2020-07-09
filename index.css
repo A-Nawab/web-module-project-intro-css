@@ -1,3 +1,100 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    /* to keep child from getting bigger than parent
+    */
+    max-width:100%;  
+    border:.5rem transparent;
+    font-family: 'Roboto Mono';
+}
+
+html{
+    font-size:62.5% 
+}
 body{
-    background-color: brown;
+    font-size:1.6rem;
+    line-height:1.5;
+    /*font-family for the body*/
+}
+
+h1, h2, h3{
+    /*another font*/
+    /*maybe size*/
+    letter-spacing: 3px;
+}
+
+section{
+    padding:4% 0;
+}
+
+
+a{
+  text-decoration:none;
+}
+.plan{
+    background-color: #FF764E;
+    width: 30%;
+    display:inline-block;
+    margin: 0 auto;
+    border-radius: .7rem;
+}
+    
+.learn {
+    background-color: #5ED3EB;
+    display:inline-block;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: .7rem;
+}
+.get{
+    background-color: #FFCD69;
+    display:inline-block;
+    width: 32%;
+    margin: 0 auto;
+    border-radius: .7rem;
+}
+.container33 img{
+    max-width: 100;
+}
+.container33 {
+
+    width: 33%;
+    display:inline-block;
+}
+
+.container66{
+    width: 59%;
+    display:inline-block;
+    margin-left:0 7%;
+    text-align:center;
+}
+h1{
+    font-size: 4rem;
+    font-family: 'Chelsea Market';
+    
+}
+.resize{
+    display: block;
+    width: 33%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resize1{
+width: 100%;
+border-radius: 25rem;
+
+}
+
+.buttonBar{
+    margin:0 auto;
+    max-width: 100%;
+    text-align: center;
+    
+}
+main section p{
+    text-align: center;
+    border: 2rem transparent;
 }
