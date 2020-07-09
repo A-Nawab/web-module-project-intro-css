@@ -4,8 +4,7 @@
     margin:0;
     /* to keep child from getting bigger than parent
     */
-    max-width:100%;  
-    border:.5rem transparent;
+  
     font-family: 'Roboto Mono';
 }
 
@@ -15,45 +14,43 @@ html{
 body{
     font-size:1.6rem;
     line-height:1.5;
+    
     /*font-family for the body*/
 }
 
 h1, h2, h3{
     /*another font*/
     /*maybe size*/
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 
-section{
-    padding:4% 0;
-}
 
 
 a{
   text-decoration:none;
 }
-.plan{
-    background-color: #FF764E;
-    width: 30%;
-    display:inline-block;
-    margin: 0 auto;
-    border-radius: .7rem;
-}
+#plan{
     
-.learn {
-    background-color: #5ED3EB;
-    display:inline-block;
-    width: 30%;
-    margin: 0 auto;
-    border-radius: .7rem;
+    background-color: #FF764E;
 }
-.get{
+.navBut{
+    width: 10%;
+    display:inline-block;
+    margin: 0 5%;
+    border-radius: 1.5rem;
+    
+    
+}
+ #learn{
+     background-color: #5ED3EB;
+
+ }   
+
+#get{
     background-color: #FFCD69;
-    display:inline-block;
-    width: 32%;
-    margin: 0 auto;
-    border-radius: .7rem;
+
 }
+
 .container33 img{
     max-width: 100;
 }
@@ -72,7 +69,7 @@ a{
 h1{
     font-size: 4rem;
     font-family: 'Chelsea Market';
-    
+    padding: 10%
 }
 .resize{
     display: block;
@@ -83,18 +80,42 @@ h1{
 }
 
 .resize1{
-width: 100%;
-border-radius: 25rem;
-
+    display: block;
+    width: 50%;
+    border-radius: 25rem;
+    margin:0 auto;
 }
+
+div.containershrink{
+margin: 0 42rem;
+text-align: center;
+}
+
+.bold   {
+    font-weight: bold;
+    color: black;
+    }
 
 .buttonBar{
     margin:0 auto;
-    max-width: 100%;
+  
     text-align: center;
     
 }
 main section p{
     text-align: center;
     border: 2rem transparent;
+}
+
+footer{
+       background-color: #F9E7DC;
+}
+
+.mainText{
+    color: white;
+    background-color: #DDB9A3;
+}
+.imgclaass{
+    width:100%;
+    height: 200px;
 }
