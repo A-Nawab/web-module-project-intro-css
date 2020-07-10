@@ -4,7 +4,7 @@
     margin:0;
     /* to keep child from getting bigger than parent
     */
-  
+   
     font-family: 'Roboto Mono';
 }
 
@@ -35,10 +35,11 @@ a{
 }
 .navBut{
     width: 10%;
+   
     display:inline-block;
-    margin: 0 5%;
+    margin: 2% 8%;
     border-radius: 1.5rem;
-    
+    padding:1rem 3rem;
     
 }
  #learn{
@@ -67,9 +68,12 @@ a{
     text-align:center;
 }
 h1{
-    font-size: 4rem;
+    font-size: 5.5rem;
     font-family: 'Chelsea Market';
     padding: 10%
+}
+div.container66 p{
+    font-size: 2rem;
 }
 .resize{
     display: block;
@@ -87,8 +91,9 @@ h1{
 }
 
 div.containershrink{
-margin: 0 42rem;
+margin: 0 50rem;
 text-align: center;
+padding: 5rem 0;
 }
 
 .bold   {
@@ -103,8 +108,9 @@ text-align: center;
     
 }
 main section p{
-    text-align: center;
-    border: 2rem transparent;
+    
+    border: 2rem solid;
+  
 }
 
 footer{
@@ -114,8 +120,18 @@ footer{
 .mainText{
     color: white;
     background-color: #DDB9A3;
+    padding:4rem;
+    margin:0 7rem;
+    text-align: center;
+    line-height: 1.8rem;
+    font-size: 2rem;
 }
-.imgclaass{
-    width:100%;
-    height: 200px;
+.cliffImage{
+    background-image:url("./assets/footer_img.jpg");
+    background-repeat:no-repeat;
+    width: 100%;
+    height:40vh;
+    /* background-attachment:fixed; */
+    background-size:cover;
+
 }
